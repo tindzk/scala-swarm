@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Swarm demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-dark.min.css">
+    <script src="swarm.js" defer></script>
+</head>
+<body pn:id="Page" xmlns:pn xmlns:components>
+    <header class="sticky">
+        <a href="#" class="logo">scala-swarm</a>
+        <a id="start" href="#" class="button">Start</a>
+        <a id="stop" href="#" class="button">Stop</a>
+        <a id="more-bees" href="#" class="button">More bees</a>
+        <a id="higher-bee-accel" href="#" class="button">Increase bee acceleration</a>
+    </header>
+
+    <div style="padding: 20px;" id="body">
+        <svg id="canvas" width="800px" height="800px" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+</body>
+</html>

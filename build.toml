@@ -1,0 +1,20 @@
+[project]
+scalaVersion   = "2.12.8"
+scalaJsVersion = "0.6.26"
+scalaOptions   = [
+  "-encoding", "UTF-8",
+  "-unchecked",
+  "-deprecation",
+  "-Xfuture",
+  "-Yno-adapted-args",
+  "-Ywarn-numeric-widen",
+  "-feature"
+]
+
+[module.swarm.js]
+root       = "."
+sources    = ["src"]
+scalaDeps  = [
+  ["org.scala-js", "scalajs-dom", "0.9.6"]
+]
+mainClass = "swarm.Main"
